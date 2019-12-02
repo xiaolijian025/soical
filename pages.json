@@ -3,14 +3,61 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "soical"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "my"
+			}
+		},
+		{
+			"path": "pages/msg/msg",
+			"style": {
+				"navigationBarTitleText": "msg"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "news"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTitleText": "soical",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+	    "color": "#B5B5B5",
+	    "selectedColor": "#d81e06",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tabbar/index1.png",
+	        "selectedIconPath": "static/tabbar/indexSelected1.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/news/news",
+	        "iconPath": "static/tabbar/cart1.png",
+	        "selectedIconPath": "static/tabbar/cartSelected1.png",
+	        "text": "动态"
+	    },
+			{
+			    "pagePath": "pages/msg/msg",
+			    "iconPath": "static/tabbar/class1.png",
+			    "selectedIconPath": "static/tabbar/classSelected1.png",
+			    "text": "消息"
+			}, {
+			    "pagePath": "pages/my/my",
+			    "iconPath": "static/tabbar/my1.png",
+			    "selectedIconPath": "static/tabbar/mySelected1.png",
+			    "text": "我的"
+			}
+			]
 	}
 }

@@ -1,9 +1,7 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
+		<text class="iconfont icon-QQ" ></text>
+		<view class="animated faster" hover-class="swing" style="height: 80rpx;width: 300rpx;background-color: #007AFF;margin-top: 30rpx;">点击效果</view>
 	</view>
 </template>
 
@@ -48,5 +46,8 @@
 	.title {
 		font-size: 36rpx;
 		color: #8f8f94;
+	
+		
 	}
+	
 </style>

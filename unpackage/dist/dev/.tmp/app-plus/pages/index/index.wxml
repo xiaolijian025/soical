@@ -1,0 +1,1 @@
+<view class="content"><text class="iconfont icon-QQ"></text><view class="animated faster" style="height:80rpx;width:300rpx;background-color:#007AFF;margin-top:30rpx;" hover-class="swing">点击效果</view></view>
