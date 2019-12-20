@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		<text>动态</text>
 	</view>
 </template>
 
